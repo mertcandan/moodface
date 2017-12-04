@@ -1,0 +1,60 @@
+@font-face {
+	font-family: Duru;
+	src: url("../fonts/DuruSans-Medium.otf");
+}
+
+@font-face {
+	font-family: DuruDistorted;
+	src: url("../fonts/DuruSans-MediumDistorted.ttf");
+}
+
+body {
+	font-family: "Duru";
+}
+
+.typo {
+	font-family: "DuruDistorted";
+}
+
+#HUD {
+	width: 250px;
+	background: #FEF991;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	position: fixed;
+}
+
+.inverted {
+	background: black;
+	color: white;
+}
+
+#text {
+	padding-top: 7%;
+	padding-right: 9%;
+	padding-left: 9%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#start-prompt {
+	padding-top: 7%;
+	padding-right: 9%;
+	padding-left: 9%;
+	width: 100%;
+	overflow: hidden;
+	font-size: 12;
+}
+
+#save {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#reverse {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
