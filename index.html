@@ -7,16 +7,39 @@
     <title>Moodface</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
 
   <body>
-  	<img src="img/moodface.png" id="main">
-  	<br>
-  	<img src="img/start.png" id="start">
+    <img id="reverse" src="../img/invert_siyah.png">
+    <img id="save" src="../img/download_siyah.png">
 
-  	<script src="js/jquery.min.js"></script>
+    <div id="HUD">
+        <span> current interval: </span>
+        <span id="currentInterval"> </span>
+        <br>
+        <span> average interval: </span>
+        <span id="averageInterval"> </span>
+        <br>
+        <span> letter count: </span>
+        <span id="letterCount"> </span>
+    </div>
+
+    <div id="start-prompt">
+        Start Writing...
+    </div>
+
+    <div id="text">
+        <span id="line0">
+            <span id="word0" style="margin-left: 50px">
+
+            </span>
+        </span>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-   	<script src="js/landing.js"> </script>
+    <script src="js/jspdf.js"></script>
+   	<script src="js/main.js"> </script>
   </body>
- </html>
+</html>
